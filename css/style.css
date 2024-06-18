@@ -5,8 +5,9 @@
 }
 
 header {
-
-    background-color: blueviolet;
+    padding: 10px 0px;
+    background-color: grey;
+    align-items: center;
 }
 
 main {
@@ -16,8 +17,8 @@ main {
 }
 
 .main-content {
-    background-color: blue;
-    width: calc(100vw - 75px);
+    background-color: gray;
+    width: calc(100vw - 80px);
     overflow-y: scroll;
 }
 
