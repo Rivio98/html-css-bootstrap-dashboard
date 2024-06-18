@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-color: blueviolet;
+}
+
+main {
+    height: calc(100vh- 80px);
+    display: flex;
+    background-color: bisque;
+}
+
+.main-content {
+    background-color: blue;
+    width: calc(100vw - 75px);
+    overflow-y: scroll;
+}
+
+.side-bar {
+    width: 75px;
+    background-color: aqua;
+    height: calc(100vh - 80px);
+}
+
+img {
+    width: 80px;
+}
