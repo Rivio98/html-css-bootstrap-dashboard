@@ -85,6 +85,10 @@ main {
     background-color: #FFC009;
 }
 
+.img-stats {
+    width: 100%;
+}
+
 /* Layout style */
 .c-orange {
     color: orange;
