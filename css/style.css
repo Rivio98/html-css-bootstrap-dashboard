@@ -47,6 +47,12 @@ main {
     border-radius: 5px;
 }
 
+.label-blue {
+    background-color: #165BBA;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
 /* Layout style */
 .c-orange {
     color: orange;
