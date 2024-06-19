@@ -89,6 +89,23 @@ main {
     width: 100%;
 }
 
+.section {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+div .section :hover {
+    background-color: aliceblue;
+}
+
+.section-stat :hover {
+    background-color: aliceblue;
+}
+
+.section-sign :hover {
+    background-color: aliceblue;
+}
+
 /* Layout style */
 .c-orange {
     color: orange;
