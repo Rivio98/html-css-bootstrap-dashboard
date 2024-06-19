@@ -4,30 +4,43 @@
     box-sizing: border-box;
 }
 
-header {
-    padding: 10px 0px;
-    background-color: grey;
-    align-items: center;
+
+#nav-bar {
+    height: 75px;
+    background-color: #F8F9FA;
+    align-content: center;
 }
+
+
 
 main {
-    height: calc(100vh- 80px);
+    height: calc(100vh - 75px);
+    background-color: brown;
     display: flex;
-    background-color: bisque;
 }
 
-.main-content {
-    background-color: gray;
-    width: calc(100vw - 80px);
+#sidebar {
+    width: 100px;
+    background-color: azure;
+}
+
+#main-content {
+    width: calc(100vw - 100px);
     overflow-y: scroll;
 }
 
-.side-bar {
+.logo {
     width: 75px;
-    background-color: aqua;
-    height: calc(100vh - 80px);
 }
 
-img {
-    width: 80px;
+/* Media query */
+@media screen and (min-width: 992px) {
+    #sidebar {
+        width: 150px;
+    }
+
+    #main-content {
+        width: calc(100vw - 150px);
+    }
+
 }
