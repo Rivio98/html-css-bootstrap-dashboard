@@ -53,6 +53,37 @@ main {
     border-radius: 20px;
 }
 
+.circle {
+    background-color: orange;
+    color: #fff;
+    clip-path: circle();
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.bi-pencil-fill,
+.bi-trash-fill {
+    color: grey;
+    margin-right: 10px;
+}
+
+.lb {
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+.lb-done {
+    background-color: #198754;
+}
+
+.lb-failed {
+    background-color: #DC3545;
+}
+
+.lb-process {
+    background-color: #FFC009;
+}
 
 /* Layout style */
 .c-orange {
