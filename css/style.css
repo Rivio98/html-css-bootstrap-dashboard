@@ -6,7 +6,7 @@
 
 
 #nav-bar {
-    height: 75px;
+    height: 100px;
     background-color: #F8F9FA;
     align-content: center;
 }
@@ -14,14 +14,18 @@
 
 
 main {
-    height: calc(100vh - 75px);
+    height: calc(100vh - 100px);
     background-color: brown;
     display: flex;
 }
 
 #sidebar {
     width: 100px;
-    background-color: azure;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #061E34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #main-content {
@@ -31,6 +35,11 @@ main {
 
 .logo {
     width: 75px;
+}
+
+/* Layout style */
+.c-orange {
+    color: orange;
 }
 
 /* Media query */
